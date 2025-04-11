@@ -1,0 +1,14 @@
+.services {
+    padding: 2rem;
+    background-color: #e6f0ff;
+  }
+  h2 {
+    color: #004080;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  li {
+    margin: 0.5rem 0;
+  }
