@@ -1,7 +1,10 @@
 #!/bin/bash
 
+set -e
+
 echo "🔧 Construindo o projeto Angular para produção..."
-ng build --configuration production --base-href /contMedeiros/
+ng build --base-href "/contMedeiros/"
+touch dist/contMedeiros/.nojekyll
 
 echo "🧹 Limpando a pasta docs antiga..."
 rm -rf docs
